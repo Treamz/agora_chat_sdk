@@ -1,0 +1,52 @@
+group 'com.easemob.im_flutter_sdk'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion = '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 21
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    //自3.6.0开始需要java8的支持
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+}
+
+tasks.withType(JavaCompile){
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+    api 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'io.hyphenate:hyphenate-chat:4.1.3'
+}

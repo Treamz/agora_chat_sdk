@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/agora_chat_sdk.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HyphenateChat.framework

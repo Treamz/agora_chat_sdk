@@ -1,0 +1,1564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		303418B2D7938424A56D1250A07CE646 /* HyphenateChat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F66446D199B32B3F07D153E536D371C /* Build configuration list for PBXAggregateTarget "HyphenateChat" */;
+			buildPhases = (
+				64A7B18961429FA6EDE39DCD637356C9 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = HyphenateChat;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08D947E310FDE244A7F01FF05F95C642 /* EMContactManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7674F12741F439BD7C0AF2D871842FF /* EMContactManagerWrapper.m */; };
+		0DCE49FB40FB9DE8434890F74D49763B /* EMPushManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C9B40A10D055DB5D66E9A5503BC473 /* EMPushManagerWrapper.m */; };
+		11A07F851D7E0C2FE934C4E15D7379C5 /* EMGroupManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E3881EE8DA2C101C28173C47C7A4F67A /* EMGroupManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B20F70D3FFF9346B5A57F614EE1F33A /* EMMessageReactionChange+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03657982765CD3FB57EB63BB328AB2C5 /* EMMessageReactionChange+Helper.m */; };
+		1E2212A9FBC6A687BCE5497813B4CCDC /* EMChatThreadEvent+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = A48C9B23D0EA38351B4F71E606B66F3E /* EMChatThreadEvent+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD5777A38B76BB921ABC8A0A57BA960 /* EMWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F29E31A3B21BD8A7BA2F042C39BF1F3F /* EMWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		225378FAFF82BE60E21102D5F67BAC49 /* EMChatroomManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E518F2B0723B7F606874C8F0379641AD /* EMChatroomManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCB49275D2E32B29901AF20E458F7A3 /* EMChatThread+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93094527ED1F46F402F369BACA29FDA4 /* EMChatThread+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1D303177FE3418BC4059317B81860F /* EMChatThreadManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 821E0AF2F69A94056713CA3353363057 /* EMChatThreadManagerWrapper.m */; };
+		2E38B3B5240EC0E1AC71F4558AAC237A /* EMTranslateLanguage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 031088E6D59204BBEA269F16B3B401D6 /* EMTranslateLanguage+Helper.m */; };
+		2EB96279AD21402FB63045DBC2BF230A /* EMMessageReaction+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7003BBDD46E842F8E30AB9861BDF8DD9 /* EMMessageReaction+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318A8D7BE9BFEBF68D14CA063B338C15 /* EMPresenceManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B59A8AA20A8BAD5547627001AD2F9C /* EMPresenceManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31EF40E1607258403467343F4D308A30 /* EMMessageReactionOperation+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = AF636F6869A5A334358EE8721E4A48CB /* EMMessageReactionOperation+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C757D5A487B72C77338BD1FAD24E32 /* EMGroupMessageAck+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDE846A778104B6AF6EF3A62E75D254 /* EMGroupMessageAck+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE3A44FCC231E2ACB595088E5EA1A27 /* EMOptions+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF3A5E82C9E7C83291D55DD68558844 /* EMOptions+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E081BB0744EBC3C82D72F989B6F0C7D /* EMPageResult+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F43B068A511184D98E2D92475BBB93 /* EMPageResult+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F5B515F6774B0EC1730CA079214B112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43F3D2C80EB7DB7F3F312C91D5FCA1AD /* EMConversationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC1808F4F58DC061DFA07DC0382A22C /* EMConversationWrapper.m */; };
+		447D597E792F4FE9253304D9281B3694 /* EMPushManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 876CB576E6C3F2A9480A7136EBA7E1A8 /* EMPushManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA909D6F635D65F742508CADCC8FC44 /* EMOptions+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9123526530A0287F0E75892FF44D8690 /* EMOptions+Helper.m */; };
+		4CE79E8E62C32EEA5743A39C388AA530 /* EMSilentModeTime+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = C930DB2DC47EF1890FD0A9A08A4062C7 /* EMSilentModeTime+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D350D1692A677E3DFF26786F66C4718 /* EMCursorResult+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F2E2E5FFA49CF217A390FD373CAE56 /* EMCursorResult+Helper.m */; };
+		4DB03CB5AE75E8E2F17469882206C009 /* EMSDKMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = E16EF499154EFB7D71D299618FDFAA2C /* EMSDKMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551C26F592969802ABC78DC30315D83A /* EMClientWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13225CAB9B6625BBB4B3A9C808772E49 /* EMClientWrapper.m */; };
+		55F9B33D4BE379BA372DC90BFD1E00C9 /* EMChatManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 201E13E8A09AE46BA6D9A55C99D94143 /* EMChatManagerWrapper.m */; };
+		59BB6DC9348673A91D93D73B73006E86 /* EMMessageReactionChange+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F15BF8F1A0110B79165538E0B356A06 /* EMMessageReactionChange+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAA085A3C86C9ABBA37D6EC74F154D1 /* EMPushOptions+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6639ACEC86CCBFF492E94CA915BDD57B /* EMPushOptions+Helper.m */; };
+		5F3F1040C949E49D2A4B419EEA9C4848 /* EMChatThreadEvent+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B19DA63B2FDD70A1F4B9CED3CDC27F60 /* EMChatThreadEvent+Helper.m */; };
+		6294981DB497573012B1C73D03ECA837 /* EMMessageReactionOperation+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F11CFEF7D54F1911D36571950CA0B908 /* EMMessageReactionOperation+Helper.m */; };
+		673F1AC2E8663BC6CE7D86CA0B1E4EAE /* EMChatroom+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD40044A784B8F114E62F1E98929F078 /* EMChatroom+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFF426C53A1F7B0C69D0CE71F503D21 /* EMListenerHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 48018C49AE218844EA49811F16DEC0C5 /* EMListenerHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1EA716F9D30A309A6C410C08AA0953 /* EMSilentModeResult+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB012C89A5829C67D198E6C65D9CAC7 /* EMSilentModeResult+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		714826F8442D047EA82AC40076D3FFA5 /* EMClientWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E64054C3771CF3C27E6DFCB616306A69 /* EMClientWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		718DA77448E27B702BA56F9A4BD11DBD /* EMPresence+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = E071984E96B1D9BFA2396E2F9CAE4AE9 /* EMPresence+Helper.m */; };
+		734FE0F0120AFD328F02725D1134A9EB /* EMProgressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE15EEF12710543C423CF5042C15F586 /* EMProgressManager.m */; };
+		77B5124E6B791F44252FCC72376C95C7 /* EMMessageReaction+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 821925E9921933550A0F8E6B05EF4C9B /* EMMessageReaction+Helper.m */; };
+		79563155611498E896846F8588456B74 /* agora_chat_sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BB57D4A4AE8B4BD9866E826FEC2758 /* agora_chat_sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADD5EE246F756FE6D30F2911423B9ED /* EMFetchServerMessagesOption+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7070021E953D85B42A5396B5BEC3B2FF /* EMFetchServerMessagesOption+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D25DAFA8E8345C906C9ADF5751C22DE /* EMSilentModeParam+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = C283064CEB5950F9106A4755B819A4E9 /* EMSilentModeParam+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D298ACB180EE48A653F764B7776298 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B74BF0F41753CDFF7A292DF4BF912C7C /* NSArray+Helper.m */; };
+		85FC81619E8F64D75CAAD3721FD34348 /* EMUserInfoManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0737CFD93C96B017E89D290F4EBE19A6 /* EMUserInfoManagerWrapper.m */; };
+		88CB40298543B2CF45D796A446432871 /* EMError+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E14CEB0C839F4369CEF0E2EB5D4645 /* EMError+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896568D94454808DCA61CCFDD4564797 /* EMSilentModeTime+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A32056032C37A7D73E09381CB0B6E569 /* EMSilentModeTime+Helper.m */; };
+		8B1CBC17CEDB35B9DDE5623AD269D8EA /* EMChatroomManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A37AE4AF51270FF26A70587160714 /* EMChatroomManagerWrapper.m */; };
+		8F269C5C33B71ED8065BBAD54654CABF /* EMContactManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F1255D50FBDB847DEC1E88E8760CA28E /* EMContactManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F55BB97B8E0B07025609B36A3897021 /* EMSilentModeParam+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D82F1A21371262EC1DE94ADBB0FB49 /* EMSilentModeParam+Helper.m */; };
+		8FC3B3EBECFA3EAF170FC1580347D215 /* EMPresenceManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D41A49ACA08B6D85756094253AEAD8A /* EMPresenceManagerWrapper.m */; };
+		916C971466C048EACE65BF48C3CEC5EE /* EMConversationWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F8A9B6FBC66323188E2AD93B1F2055 /* EMConversationWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C23C6C9A53C9F76F1D7CA11869093D /* agora_chat_sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC07D7D8BCE1462FEDF199436CEECA71 /* agora_chat_sdk-dummy.m */; };
+		942E270FDAAF15DAD34670F76D91675D /* NSArray+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC6C6C431EF4FBFF4D1CE236C3DCAA9 /* NSArray+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96182617E9E214A4D8828747D57E5A1D /* EMFetchServerMessagesOption+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8846EE85AD0CEAA9A665445576A9E4BB /* EMFetchServerMessagesOption+Helper.m */; };
+		9794ED3F13394137D97089B955197E9B /* ImFlutterSdkPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EE1F2CD6D4449D25769FD64A76FE65 /* ImFlutterSdkPlugin.m */; };
+		98FCD3B18AED7D5225CEBE2EFED35BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99C0E4D3C642F5AEBEF0FCCBAC8F8321 /* EMGroupMessageAck+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFEB9D28DA0A51E4F0393853F567227 /* EMGroupMessageAck+Helper.m */; };
+		A28E95AC7E32C1946D672FFFD2287ACF /* EMChatThreadManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F52ABB1FC4F368C89EB2FDB13148497 /* EMChatThreadManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2A39D5CD25610E21D2E206D89E9ECDC /* EMUserInfo+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1025220D0BD3C70329BF60FE58B642 /* EMUserInfo+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45859951EEAACB10564B826DEF2357C /* EMUserInfo+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E874C91F8CB7C501B75111DB3DB189 /* EMUserInfo+Helper.m */; };
+		A58621E547262FFD2C37CDBDEAFEC6B1 /* EMProgressManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CADC00D2439B6F050B80A7314CC756 /* EMProgressManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE77FA72F89967401957F2AEB273A91E /* EMChatMessage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A40B48A31E70E33A121BA5363847F8D /* EMChatMessage+Helper.m */; };
+		AF46A9379996935A8A6C74685861532F /* EMGroupManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5840C3646816E8F360B4787C0D47E50C /* EMGroupManagerWrapper.m */; };
+		B737C74D626D1EA4FB89A4F1D7BF27EF /* EMConversation+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8997A9A1C5335F742D00D5EEEF8AB272 /* EMConversation+Helper.m */; };
+		B8F515AA50D4ACCED838E09D0496899C /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97506DE6AE4E0A5203B9D1C892E08EF /* EMChatManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 210C4F54EF5B14AF5EE4E434AC7881C0 /* EMChatManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB119C9BC013E2B66187F3171177781D /* EMListenerHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE376BD1D8D6746E02D2B270A737D82 /* EMListenerHandle.m */; };
+		BD044A606E3EEA8AAD9B504A4152437F /* EMCursorResult+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = D3574302F1D0A8B15B5411A57B1505C7 /* EMCursorResult+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D5CDB8AB185DF03E3422D4A39FB9FC /* EaseModeToJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2B83746DFDD8BE0B9C456EA47B9FE6 /* EaseModeToJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C784FED5E5336F564F2B9C4534CD3B28 /* EMDeviceConfig+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8812B48351A6B80D0EB7EC3483DBD8D7 /* EMDeviceConfig+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C842554556D7C32F5D87616D67840581 /* EMChatMessage+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C9496CDBF3F7AEB256CD8EC556BB95 /* EMChatMessage+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94A47739CEAF322B6D29DCBB50BE368 /* EMPushOptions+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D9ABEF2298290FD647279A26B7DC2A /* EMPushOptions+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D620BC347F682DB38AB4BE7AEC26C0 /* EMConversation+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AECC008CD5BB11AE867CD00D005B85 /* EMConversation+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF68DDF2394FAEAA7193A9135632E80 /* EMGroup+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = AE277F7A014F3617EF258D44D23EC113 /* EMGroup+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F10ABF08260A9BC55E048296F8837E /* EMGroup+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABEFFC9E542365EBF8AACE01319046 /* EMGroup+Helper.m */; };
+		D85D38841DAF85C5830F15A6A84A2A76 /* EMWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 859D9655B97E7A6BF0F2150B92852F15 /* EMWrapper.m */; };
+		DF1DB04AC38E68D1BFF903DF7807C809 /* EMSilentModeResult+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2161482D6A40F1919409D2DC374F23 /* EMSilentModeResult+Helper.m */; };
+		DFA010C504311F4B1FEF12E24658B526 /* EMChatThread+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6133FF0B2E12B48F47A3B452034B025E /* EMChatThread+Helper.m */; };
+		E070EF5DD5FD9D9AF08DB53BE2F18B86 /* EMChatMessageWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0283CF400065C1D3BFE20077D42583AC /* EMChatMessageWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E554517162F908B5ED7DC56C9DD26F7F /* EMPageResult+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C97350CD00A8D92342691B622638DB /* EMPageResult+Helper.m */; };
+		E5A9FD3605CB7E06E526703544ACE664 /* EMChatroom+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA4F7855C957E30832398C85D523774 /* EMChatroom+Helper.m */; };
+		E6F05F5E0CCD693722E38D5E51F23AB4 /* ImFlutterSdkPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D39C2B2A4D705969A22F0D9D59B99C /* ImFlutterSdkPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9C5A3A344AF2DB68837E46FAD9975E8 /* EMUserInfoManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C25F53CBA821D788DD2D51F9DFEEC726 /* EMUserInfoManagerWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3CDF9238B542D0987015A0471D0121A /* EMPresence+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 343D1152FD8380F972BFD5BBC443F682 /* EMPresence+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A1483C757455495D013E8EB99C4114 /* EMDeviceConfig+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C630E70A40C0A145D4A70CEEE44E38CB /* EMDeviceConfig+Helper.m */; };
+		F8D61EFE4CB6CE6B1769FE67094321EF /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
+		FB9248F0BE0275612D37D51124C75BAC /* EMChatMessageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 68125164718841890E81CB3E6C44377D /* EMChatMessageWrapper.m */; };
+		FCCFCC4F9FEBACB3B6032F99C7F2F44F /* EMError+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A5C62670B208913F94DC6F898B4BEB /* EMError+Helper.m */; };
+		FE9745D383E5D3E176849FDB1BC2D847 /* EMTranslateLanguage+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB02DAF52A03711CC72A6E727A5ED31 /* EMTranslateLanguage+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09B613D417D738B285857C72A270DA7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		3BAE6997EA740375A77E8E3B149771F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303418B2D7938424A56D1250A07CE646;
+			remoteInfo = HyphenateChat;
+		};
+		6A749722CC82B6183D69AE5312991608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		B2730F28CC02241DA215DECBCF14BDD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303418B2D7938424A56D1250A07CE646;
+			remoteInfo = HyphenateChat;
+		};
+		C80690133C5CCBAF6E8211DBC13669D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C1ABFE263742A113763DD0E8F1DC9A;
+			remoteInfo = agora_chat_sdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0283CF400065C1D3BFE20077D42583AC /* EMChatMessageWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatMessageWrapper.h; path = ../../../../../../../ios/Classes/EMChatMessageWrapper.h; sourceTree = "<group>"; };
+		031088E6D59204BBEA269F16B3B401D6 /* EMTranslateLanguage+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMTranslateLanguage+Helper.m"; path = "../../../../../../../ios/Classes/EMTranslateLanguage+Helper.m"; sourceTree = "<group>"; };
+		03657982765CD3FB57EB63BB328AB2C5 /* EMMessageReactionChange+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMMessageReactionChange+Helper.m"; path = "../../../../../../../ios/Classes/EMMessageReactionChange+Helper.m"; sourceTree = "<group>"; };
+		03ABEFFC9E542365EBF8AACE01319046 /* EMGroup+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMGroup+Helper.m"; path = "../../../../../../../ios/Classes/EMGroup+Helper.m"; sourceTree = "<group>"; };
+		0737CFD93C96B017E89D290F4EBE19A6 /* EMUserInfoManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMUserInfoManagerWrapper.m; path = ../../../../../../../ios/Classes/EMUserInfoManagerWrapper.m; sourceTree = "<group>"; };
+		09D6387F6729885F0B621CAD270B3FF6 /* HyphenateChat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = HyphenateChat.xcframework; sourceTree = "<group>"; };
+		0F52ABB1FC4F368C89EB2FDB13148497 /* EMChatThreadManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatThreadManagerWrapper.h; path = ../../../../../../../ios/Classes/EMChatThreadManagerWrapper.h; sourceTree = "<group>"; };
+		10F8A9B6FBC66323188E2AD93B1F2055 /* EMConversationWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMConversationWrapper.h; path = ../../../../../../../ios/Classes/EMConversationWrapper.h; sourceTree = "<group>"; };
+		11D9ABEF2298290FD647279A26B7DC2A /* EMPushOptions+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMPushOptions+Helper.h"; path = "../../../../../../../ios/Classes/EMPushOptions+Helper.h"; sourceTree = "<group>"; };
+		12E8C69C0730267D4A57683E54FEA41D /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13225CAB9B6625BBB4B3A9C808772E49 /* EMClientWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMClientWrapper.m; path = ../../../../../../../ios/Classes/EMClientWrapper.m; sourceTree = "<group>"; };
+		15E874C91F8CB7C501B75111DB3DB189 /* EMUserInfo+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMUserInfo+Helper.m"; path = "../../../../../../../ios/Classes/EMUserInfo+Helper.m"; sourceTree = "<group>"; };
+		201E13E8A09AE46BA6D9A55C99D94143 /* EMChatManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMChatManagerWrapper.m; path = ../../../../../../../ios/Classes/EMChatManagerWrapper.m; sourceTree = "<group>"; };
+		210C4F54EF5B14AF5EE4E434AC7881C0 /* EMChatManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerWrapper.h; path = ../../../../../../../ios/Classes/EMChatManagerWrapper.h; sourceTree = "<group>"; };
+		2E2B83746DFDD8BE0B9C456EA47B9FE6 /* EaseModeToJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseModeToJson.h; path = ../../../../../../../ios/Classes/EaseModeToJson.h; sourceTree = "<group>"; };
+		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		343D1152FD8380F972BFD5BBC443F682 /* EMPresence+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMPresence+Helper.h"; path = "../../../../../../../ios/Classes/EMPresence+Helper.h"; sourceTree = "<group>"; };
+		37AFBEBA452F32A1E0307F3FA4F76F2A /* agora_chat_sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "agora_chat_sdk-prefix.pch"; sourceTree = "<group>"; };
+		3A40B48A31E70E33A121BA5363847F8D /* EMChatMessage+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMChatMessage+Helper.m"; path = "../../../../../../../ios/Classes/EMChatMessage+Helper.m"; sourceTree = "<group>"; };
+		41CADC00D2439B6F050B80A7314CC756 /* EMProgressManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMProgressManager.h; path = ../../../../../../../ios/Classes/EMProgressManager.h; sourceTree = "<group>"; };
+		426A37AE4AF51270FF26A70587160714 /* EMChatroomManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMChatroomManagerWrapper.m; path = ../../../../../../../ios/Classes/EMChatroomManagerWrapper.m; sourceTree = "<group>"; };
+		48018C49AE218844EA49811F16DEC0C5 /* EMListenerHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMListenerHandle.h; path = ../../../../../../../ios/Classes/EMListenerHandle.h; sourceTree = "<group>"; };
+		4D41A49ACA08B6D85756094253AEAD8A /* EMPresenceManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMPresenceManagerWrapper.m; path = ../../../../../../../ios/Classes/EMPresenceManagerWrapper.m; sourceTree = "<group>"; };
+		4EB02DAF52A03711CC72A6E727A5ED31 /* EMTranslateLanguage+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMTranslateLanguage+Helper.h"; path = "../../../../../../../ios/Classes/EMTranslateLanguage+Helper.h"; sourceTree = "<group>"; };
+		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		5840C3646816E8F360B4787C0D47E50C /* EMGroupManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMGroupManagerWrapper.m; path = ../../../../../../../ios/Classes/EMGroupManagerWrapper.m; sourceTree = "<group>"; };
+		58A5C62670B208913F94DC6F898B4BEB /* EMError+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMError+Helper.m"; path = "../../../../../../../ios/Classes/EMError+Helper.m"; sourceTree = "<group>"; };
+		58D39C2B2A4D705969A22F0D9D59B99C /* ImFlutterSdkPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImFlutterSdkPlugin.h; path = ../../../../../../../ios/Classes/ImFlutterSdkPlugin.h; sourceTree = "<group>"; };
+		6133FF0B2E12B48F47A3B452034B025E /* EMChatThread+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMChatThread+Helper.m"; path = "../../../../../../../ios/Classes/EMChatThread+Helper.m"; sourceTree = "<group>"; };
+		624E8A721791DA4D8BF5971945776B32 /* HyphenateChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyphenateChat.debug.xcconfig; sourceTree = "<group>"; };
+		63EE1F2CD6D4449D25769FD64A76FE65 /* ImFlutterSdkPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImFlutterSdkPlugin.m; path = ../../../../../../../ios/Classes/ImFlutterSdkPlugin.m; sourceTree = "<group>"; };
+		6639ACEC86CCBFF492E94CA915BDD57B /* EMPushOptions+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMPushOptions+Helper.m"; path = "../../../../../../../ios/Classes/EMPushOptions+Helper.m"; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68125164718841890E81CB3E6C44377D /* EMChatMessageWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMChatMessageWrapper.m; path = ../../../../../../../ios/Classes/EMChatMessageWrapper.m; sourceTree = "<group>"; };
+		6AC1808F4F58DC061DFA07DC0382A22C /* EMConversationWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMConversationWrapper.m; path = ../../../../../../../ios/Classes/EMConversationWrapper.m; sourceTree = "<group>"; };
+		6EDE846A778104B6AF6EF3A62E75D254 /* EMGroupMessageAck+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMGroupMessageAck+Helper.h"; path = "../../../../../../../ios/Classes/EMGroupMessageAck+Helper.h"; sourceTree = "<group>"; };
+		6F3181837464B5408F594EE3DCB281EA /* agora_chat_sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = agora_chat_sdk.release.xcconfig; sourceTree = "<group>"; };
+		7003BBDD46E842F8E30AB9861BDF8DD9 /* EMMessageReaction+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMMessageReaction+Helper.h"; path = "../../../../../../../ios/Classes/EMMessageReaction+Helper.h"; sourceTree = "<group>"; };
+		7070021E953D85B42A5396B5BEC3B2FF /* EMFetchServerMessagesOption+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMFetchServerMessagesOption+Helper.h"; path = "../../../../../../../ios/Classes/EMFetchServerMessagesOption+Helper.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		759D2C6E9926FEAEDE58C78702A24E5E /* HyphenateChat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HyphenateChat-xcframeworks.sh"; sourceTree = "<group>"; };
+		78C9496CDBF3F7AEB256CD8EC556BB95 /* EMChatMessage+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMChatMessage+Helper.h"; path = "../../../../../../../ios/Classes/EMChatMessage+Helper.h"; sourceTree = "<group>"; };
+		79F43B068A511184D98E2D92475BBB93 /* EMPageResult+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMPageResult+Helper.h"; path = "../../../../../../../ios/Classes/EMPageResult+Helper.h"; sourceTree = "<group>"; };
+		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		7C1025220D0BD3C70329BF60FE58B642 /* EMUserInfo+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMUserInfo+Helper.h"; path = "../../../../../../../ios/Classes/EMUserInfo+Helper.h"; sourceTree = "<group>"; };
+		7D8158B7FC1FA8D9A7F970CEE3783B72 /* agora_chat_sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = agora_chat_sdk.modulemap; sourceTree = "<group>"; };
+		7DFEB9D28DA0A51E4F0393853F567227 /* EMGroupMessageAck+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMGroupMessageAck+Helper.m"; path = "../../../../../../../ios/Classes/EMGroupMessageAck+Helper.m"; sourceTree = "<group>"; };
+		7F15BF8F1A0110B79165538E0B356A06 /* EMMessageReactionChange+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMMessageReactionChange+Helper.h"; path = "../../../../../../../ios/Classes/EMMessageReactionChange+Helper.h"; sourceTree = "<group>"; };
+		821925E9921933550A0F8E6B05EF4C9B /* EMMessageReaction+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMMessageReaction+Helper.m"; path = "../../../../../../../ios/Classes/EMMessageReaction+Helper.m"; sourceTree = "<group>"; };
+		821E0AF2F69A94056713CA3353363057 /* EMChatThreadManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMChatThreadManagerWrapper.m; path = ../../../../../../../ios/Classes/EMChatThreadManagerWrapper.m; sourceTree = "<group>"; };
+		84E14CEB0C839F4369CEF0E2EB5D4645 /* EMError+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMError+Helper.h"; path = "../../../../../../../ios/Classes/EMError+Helper.h"; sourceTree = "<group>"; };
+		859D9655B97E7A6BF0F2150B92852F15 /* EMWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMWrapper.m; path = ../../../../../../../ios/Classes/EMWrapper.m; sourceTree = "<group>"; };
+		876CB576E6C3F2A9480A7136EBA7E1A8 /* EMPushManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushManagerWrapper.h; path = ../../../../../../../ios/Classes/EMPushManagerWrapper.h; sourceTree = "<group>"; };
+		87BB57D4A4AE8B4BD9866E826FEC2758 /* agora_chat_sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "agora_chat_sdk-umbrella.h"; sourceTree = "<group>"; };
+		8812B48351A6B80D0EB7EC3483DBD8D7 /* EMDeviceConfig+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMDeviceConfig+Helper.h"; path = "../../../../../../../ios/Classes/EMDeviceConfig+Helper.h"; sourceTree = "<group>"; };
+		8846EE85AD0CEAA9A665445576A9E4BB /* EMFetchServerMessagesOption+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMFetchServerMessagesOption+Helper.m"; path = "../../../../../../../ios/Classes/EMFetchServerMessagesOption+Helper.m"; sourceTree = "<group>"; };
+		8997A9A1C5335F742D00D5EEEF8AB272 /* EMConversation+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMConversation+Helper.m"; path = "../../../../../../../ios/Classes/EMConversation+Helper.m"; sourceTree = "<group>"; };
+		8FA4F7855C957E30832398C85D523774 /* EMChatroom+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMChatroom+Helper.m"; path = "../../../../../../../ios/Classes/EMChatroom+Helper.m"; sourceTree = "<group>"; };
+		9123526530A0287F0E75892FF44D8690 /* EMOptions+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMOptions+Helper.m"; path = "../../../../../../../ios/Classes/EMOptions+Helper.m"; sourceTree = "<group>"; };
+		93094527ED1F46F402F369BACA29FDA4 /* EMChatThread+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMChatThread+Helper.h"; path = "../../../../../../../ios/Classes/EMChatThread+Helper.h"; sourceTree = "<group>"; };
+		93C9B40A10D055DB5D66E9A5503BC473 /* EMPushManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMPushManagerWrapper.m; path = ../../../../../../../ios/Classes/EMPushManagerWrapper.m; sourceTree = "<group>"; };
+		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		A1B59A8AA20A8BAD5547627001AD2F9C /* EMPresenceManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPresenceManagerWrapper.h; path = ../../../../../../../ios/Classes/EMPresenceManagerWrapper.h; sourceTree = "<group>"; };
+		A32056032C37A7D73E09381CB0B6E569 /* EMSilentModeTime+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMSilentModeTime+Helper.m"; path = "../../../../../../../ios/Classes/EMSilentModeTime+Helper.m"; sourceTree = "<group>"; };
+		A3F2E2E5FFA49CF217A390FD373CAE56 /* EMCursorResult+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMCursorResult+Helper.m"; path = "../../../../../../../ios/Classes/EMCursorResult+Helper.m"; sourceTree = "<group>"; };
+		A48C9B23D0EA38351B4F71E606B66F3E /* EMChatThreadEvent+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMChatThreadEvent+Helper.h"; path = "../../../../../../../ios/Classes/EMChatThreadEvent+Helper.h"; sourceTree = "<group>"; };
+		A7674F12741F439BD7C0AF2D871842FF /* EMContactManagerWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMContactManagerWrapper.m; path = ../../../../../../../ios/Classes/EMContactManagerWrapper.m; sourceTree = "<group>"; };
+		AA055714EB34C5C7D0255552AAB663CB /* agora_chat_sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = agora_chat_sdk.debug.xcconfig; sourceTree = "<group>"; };
+		AC90B8B1152E2E102ABE8360FAEE479D /* agora_chat_sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "agora_chat_sdk-Info.plist"; sourceTree = "<group>"; };
+		AD40044A784B8F114E62F1E98929F078 /* EMChatroom+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMChatroom+Helper.h"; path = "../../../../../../../ios/Classes/EMChatroom+Helper.h"; sourceTree = "<group>"; };
+		AE277F7A014F3617EF258D44D23EC113 /* EMGroup+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMGroup+Helper.h"; path = "../../../../../../../ios/Classes/EMGroup+Helper.h"; sourceTree = "<group>"; };
+		AEE376BD1D8D6746E02D2B270A737D82 /* EMListenerHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMListenerHandle.m; path = ../../../../../../../ios/Classes/EMListenerHandle.m; sourceTree = "<group>"; };
+		AF636F6869A5A334358EE8721E4A48CB /* EMMessageReactionOperation+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMMessageReactionOperation+Helper.h"; path = "../../../../../../../ios/Classes/EMMessageReactionOperation+Helper.h"; sourceTree = "<group>"; };
+		B19DA63B2FDD70A1F4B9CED3CDC27F60 /* EMChatThreadEvent+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMChatThreadEvent+Helper.m"; path = "../../../../../../../ios/Classes/EMChatThreadEvent+Helper.m"; sourceTree = "<group>"; };
+		B74BF0F41753CDFF7A292DF4BF912C7C /* NSArray+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Helper.m"; path = "../../../../../../../ios/Classes/NSArray+Helper.m"; sourceTree = "<group>"; };
+		B9C97350CD00A8D92342691B622638DB /* EMPageResult+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMPageResult+Helper.m"; path = "../../../../../../../ios/Classes/EMPageResult+Helper.m"; sourceTree = "<group>"; };
+		C08DC5B6D293E27B80DC66B2D0D5C7AC /* HyphenateChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyphenateChat.release.xcconfig; sourceTree = "<group>"; };
+		C25F53CBA821D788DD2D51F9DFEEC726 /* EMUserInfoManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMUserInfoManagerWrapper.h; path = ../../../../../../../ios/Classes/EMUserInfoManagerWrapper.h; sourceTree = "<group>"; };
+		C283064CEB5950F9106A4755B819A4E9 /* EMSilentModeParam+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMSilentModeParam+Helper.h"; path = "../../../../../../../ios/Classes/EMSilentModeParam+Helper.h"; sourceTree = "<group>"; };
+		C2D82F1A21371262EC1DE94ADBB0FB49 /* EMSilentModeParam+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMSilentModeParam+Helper.m"; path = "../../../../../../../ios/Classes/EMSilentModeParam+Helper.m"; sourceTree = "<group>"; };
+		C630E70A40C0A145D4A70CEEE44E38CB /* EMDeviceConfig+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMDeviceConfig+Helper.m"; path = "../../../../../../../ios/Classes/EMDeviceConfig+Helper.m"; sourceTree = "<group>"; };
+		C63ABAD1543A3CD6DD69DCC9EC379850 /* agora_chat_sdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = agora_chat_sdk; path = agora_chat_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C830A422E16166B21DF5020AC7CB6DEA /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		C930DB2DC47EF1890FD0A9A08A4062C7 /* EMSilentModeTime+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMSilentModeTime+Helper.h"; path = "../../../../../../../ios/Classes/EMSilentModeTime+Helper.h"; sourceTree = "<group>"; };
+		CD142B04F06401C0B8C03F9EB3DF3B69 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		CD2161482D6A40F1919409D2DC374F23 /* EMSilentModeResult+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMSilentModeResult+Helper.m"; path = "../../../../../../../ios/Classes/EMSilentModeResult+Helper.m"; sourceTree = "<group>"; };
+		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF3A5E82C9E7C83291D55DD68558844 /* EMOptions+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMOptions+Helper.h"; path = "../../../../../../../ios/Classes/EMOptions+Helper.h"; sourceTree = "<group>"; };
+		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		D3574302F1D0A8B15B5411A57B1505C7 /* EMCursorResult+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMCursorResult+Helper.h"; path = "../../../../../../../ios/Classes/EMCursorResult+Helper.h"; sourceTree = "<group>"; };
+		D3AECC008CD5BB11AE867CD00D005B85 /* EMConversation+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMConversation+Helper.h"; path = "../../../../../../../ios/Classes/EMConversation+Helper.h"; sourceTree = "<group>"; };
+		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC07D7D8BCE1462FEDF199436CEECA71 /* agora_chat_sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "agora_chat_sdk-dummy.m"; sourceTree = "<group>"; };
+		DE15EEF12710543C423CF5042C15F586 /* EMProgressManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMProgressManager.m; path = ../../../../../../../ios/Classes/EMProgressManager.m; sourceTree = "<group>"; };
+		E071984E96B1D9BFA2396E2F9CAE4AE9 /* EMPresence+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMPresence+Helper.m"; path = "../../../../../../../ios/Classes/EMPresence+Helper.m"; sourceTree = "<group>"; };
+		E16EF499154EFB7D71D299618FDFAA2C /* EMSDKMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSDKMethod.h; path = ../../../../../../../ios/Classes/EMSDKMethod.h; sourceTree = "<group>"; };
+		E3881EE8DA2C101C28173C47C7A4F67A /* EMGroupManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupManagerWrapper.h; path = ../../../../../../../ios/Classes/EMGroupManagerWrapper.h; sourceTree = "<group>"; };
+		E518F2B0723B7F606874C8F0379641AD /* EMChatroomManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroomManagerWrapper.h; path = ../../../../../../../ios/Classes/EMChatroomManagerWrapper.h; sourceTree = "<group>"; };
+		E64054C3771CF3C27E6DFCB616306A69 /* EMClientWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClientWrapper.h; path = ../../../../../../../ios/Classes/EMClientWrapper.h; sourceTree = "<group>"; };
+		E814584D19701FD6206217D852697142 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		F11CFEF7D54F1911D36571950CA0B908 /* EMMessageReactionOperation+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMMessageReactionOperation+Helper.m"; path = "../../../../../../../ios/Classes/EMMessageReactionOperation+Helper.m"; sourceTree = "<group>"; };
+		F1255D50FBDB847DEC1E88E8760CA28E /* EMContactManagerWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMContactManagerWrapper.h; path = ../../../../../../../ios/Classes/EMContactManagerWrapper.h; sourceTree = "<group>"; };
+		F29E31A3B21BD8A7BA2F042C39BF1F3F /* EMWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMWrapper.h; path = ../../../../../../../ios/Classes/EMWrapper.h; sourceTree = "<group>"; };
+		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		FBB012C89A5829C67D198E6C65D9CAC7 /* EMSilentModeResult+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMSilentModeResult+Helper.h"; path = "../../../../../../../ios/Classes/EMSilentModeResult+Helper.h"; sourceTree = "<group>"; };
+		FEC6C6C431EF4FBFF4D1CE236C3DCAA9 /* NSArray+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Helper.h"; path = "../../../../../../../ios/Classes/NSArray+Helper.h"; sourceTree = "<group>"; };
+		FFBB766F734E4352075D8BF03CC3251B /* agora_chat_sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = agora_chat_sdk.podspec; path = ../../../../../../ios/agora_chat_sdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4726DF90A8E08C7BB2203D182D372E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FCD3B18AED7D5225CEBE2EFED35BBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5818A30CCDAD00E6EFB29FDEA4FB25C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5B515F6774B0EC1730CA079214B112 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088770940728408530E7F1F457C2A9A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C830A422E16166B21DF5020AC7CB6DEA /* Flutter.debug.xcconfig */,
+				CD142B04F06401C0B8C03F9EB3DF3B69 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		3046DE20A7994F8C9CF259DB525E4150 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				47A835BF7CAD34554419FCCE137A9C38 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		36BDB3087DE11664DE371F96A37AC619 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB766F734E4352075D8BF03CC3251B /* agora_chat_sdk.podspec */,
+				E814584D19701FD6206217D852697142 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3AE5197FFD23C5338320D44F6B8A7EA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B83746DFDD8BE0B9C456EA47B9FE6 /* EaseModeToJson.h */,
+				210C4F54EF5B14AF5EE4E434AC7881C0 /* EMChatManagerWrapper.h */,
+				201E13E8A09AE46BA6D9A55C99D94143 /* EMChatManagerWrapper.m */,
+				78C9496CDBF3F7AEB256CD8EC556BB95 /* EMChatMessage+Helper.h */,
+				3A40B48A31E70E33A121BA5363847F8D /* EMChatMessage+Helper.m */,
+				0283CF400065C1D3BFE20077D42583AC /* EMChatMessageWrapper.h */,
+				68125164718841890E81CB3E6C44377D /* EMChatMessageWrapper.m */,
+				AD40044A784B8F114E62F1E98929F078 /* EMChatroom+Helper.h */,
+				8FA4F7855C957E30832398C85D523774 /* EMChatroom+Helper.m */,
+				E518F2B0723B7F606874C8F0379641AD /* EMChatroomManagerWrapper.h */,
+				426A37AE4AF51270FF26A70587160714 /* EMChatroomManagerWrapper.m */,
+				93094527ED1F46F402F369BACA29FDA4 /* EMChatThread+Helper.h */,
+				6133FF0B2E12B48F47A3B452034B025E /* EMChatThread+Helper.m */,
+				A48C9B23D0EA38351B4F71E606B66F3E /* EMChatThreadEvent+Helper.h */,
+				B19DA63B2FDD70A1F4B9CED3CDC27F60 /* EMChatThreadEvent+Helper.m */,
+				0F52ABB1FC4F368C89EB2FDB13148497 /* EMChatThreadManagerWrapper.h */,
+				821E0AF2F69A94056713CA3353363057 /* EMChatThreadManagerWrapper.m */,
+				E64054C3771CF3C27E6DFCB616306A69 /* EMClientWrapper.h */,
+				13225CAB9B6625BBB4B3A9C808772E49 /* EMClientWrapper.m */,
+				F1255D50FBDB847DEC1E88E8760CA28E /* EMContactManagerWrapper.h */,
+				A7674F12741F439BD7C0AF2D871842FF /* EMContactManagerWrapper.m */,
+				D3AECC008CD5BB11AE867CD00D005B85 /* EMConversation+Helper.h */,
+				8997A9A1C5335F742D00D5EEEF8AB272 /* EMConversation+Helper.m */,
+				10F8A9B6FBC66323188E2AD93B1F2055 /* EMConversationWrapper.h */,
+				6AC1808F4F58DC061DFA07DC0382A22C /* EMConversationWrapper.m */,
+				D3574302F1D0A8B15B5411A57B1505C7 /* EMCursorResult+Helper.h */,
+				A3F2E2E5FFA49CF217A390FD373CAE56 /* EMCursorResult+Helper.m */,
+				8812B48351A6B80D0EB7EC3483DBD8D7 /* EMDeviceConfig+Helper.h */,
+				C630E70A40C0A145D4A70CEEE44E38CB /* EMDeviceConfig+Helper.m */,
+				84E14CEB0C839F4369CEF0E2EB5D4645 /* EMError+Helper.h */,
+				58A5C62670B208913F94DC6F898B4BEB /* EMError+Helper.m */,
+				7070021E953D85B42A5396B5BEC3B2FF /* EMFetchServerMessagesOption+Helper.h */,
+				8846EE85AD0CEAA9A665445576A9E4BB /* EMFetchServerMessagesOption+Helper.m */,
+				AE277F7A014F3617EF258D44D23EC113 /* EMGroup+Helper.h */,
+				03ABEFFC9E542365EBF8AACE01319046 /* EMGroup+Helper.m */,
+				E3881EE8DA2C101C28173C47C7A4F67A /* EMGroupManagerWrapper.h */,
+				5840C3646816E8F360B4787C0D47E50C /* EMGroupManagerWrapper.m */,
+				6EDE846A778104B6AF6EF3A62E75D254 /* EMGroupMessageAck+Helper.h */,
+				7DFEB9D28DA0A51E4F0393853F567227 /* EMGroupMessageAck+Helper.m */,
+				48018C49AE218844EA49811F16DEC0C5 /* EMListenerHandle.h */,
+				AEE376BD1D8D6746E02D2B270A737D82 /* EMListenerHandle.m */,
+				7003BBDD46E842F8E30AB9861BDF8DD9 /* EMMessageReaction+Helper.h */,
+				821925E9921933550A0F8E6B05EF4C9B /* EMMessageReaction+Helper.m */,
+				7F15BF8F1A0110B79165538E0B356A06 /* EMMessageReactionChange+Helper.h */,
+				03657982765CD3FB57EB63BB328AB2C5 /* EMMessageReactionChange+Helper.m */,
+				AF636F6869A5A334358EE8721E4A48CB /* EMMessageReactionOperation+Helper.h */,
+				F11CFEF7D54F1911D36571950CA0B908 /* EMMessageReactionOperation+Helper.m */,
+				CDF3A5E82C9E7C83291D55DD68558844 /* EMOptions+Helper.h */,
+				9123526530A0287F0E75892FF44D8690 /* EMOptions+Helper.m */,
+				79F43B068A511184D98E2D92475BBB93 /* EMPageResult+Helper.h */,
+				B9C97350CD00A8D92342691B622638DB /* EMPageResult+Helper.m */,
+				343D1152FD8380F972BFD5BBC443F682 /* EMPresence+Helper.h */,
+				E071984E96B1D9BFA2396E2F9CAE4AE9 /* EMPresence+Helper.m */,
+				A1B59A8AA20A8BAD5547627001AD2F9C /* EMPresenceManagerWrapper.h */,
+				4D41A49ACA08B6D85756094253AEAD8A /* EMPresenceManagerWrapper.m */,
+				41CADC00D2439B6F050B80A7314CC756 /* EMProgressManager.h */,
+				DE15EEF12710543C423CF5042C15F586 /* EMProgressManager.m */,
+				876CB576E6C3F2A9480A7136EBA7E1A8 /* EMPushManagerWrapper.h */,
+				93C9B40A10D055DB5D66E9A5503BC473 /* EMPushManagerWrapper.m */,
+				11D9ABEF2298290FD647279A26B7DC2A /* EMPushOptions+Helper.h */,
+				6639ACEC86CCBFF492E94CA915BDD57B /* EMPushOptions+Helper.m */,
+				E16EF499154EFB7D71D299618FDFAA2C /* EMSDKMethod.h */,
+				C283064CEB5950F9106A4755B819A4E9 /* EMSilentModeParam+Helper.h */,
+				C2D82F1A21371262EC1DE94ADBB0FB49 /* EMSilentModeParam+Helper.m */,
+				FBB012C89A5829C67D198E6C65D9CAC7 /* EMSilentModeResult+Helper.h */,
+				CD2161482D6A40F1919409D2DC374F23 /* EMSilentModeResult+Helper.m */,
+				C930DB2DC47EF1890FD0A9A08A4062C7 /* EMSilentModeTime+Helper.h */,
+				A32056032C37A7D73E09381CB0B6E569 /* EMSilentModeTime+Helper.m */,
+				4EB02DAF52A03711CC72A6E727A5ED31 /* EMTranslateLanguage+Helper.h */,
+				031088E6D59204BBEA269F16B3B401D6 /* EMTranslateLanguage+Helper.m */,
+				7C1025220D0BD3C70329BF60FE58B642 /* EMUserInfo+Helper.h */,
+				15E874C91F8CB7C501B75111DB3DB189 /* EMUserInfo+Helper.m */,
+				C25F53CBA821D788DD2D51F9DFEEC726 /* EMUserInfoManagerWrapper.h */,
+				0737CFD93C96B017E89D290F4EBE19A6 /* EMUserInfoManagerWrapper.m */,
+				F29E31A3B21BD8A7BA2F042C39BF1F3F /* EMWrapper.h */,
+				859D9655B97E7A6BF0F2150B92852F15 /* EMWrapper.m */,
+				58D39C2B2A4D705969A22F0D9D59B99C /* ImFlutterSdkPlugin.h */,
+				63EE1F2CD6D4449D25769FD64A76FE65 /* ImFlutterSdkPlugin.m */,
+				FEC6C6C431EF4FBFF4D1CE236C3DCAA9 /* NSArray+Helper.h */,
+				B74BF0F41753CDFF7A292DF4BF912C7C /* NSArray+Helper.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		47A835BF7CAD34554419FCCE137A9C38 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				820DFF51AB8FB470637543336758E92B /* agora_chat_sdk */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		4DCBC7414202098F8C5A262439898019 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8D9A144DCACA96A2C3AB70A5C22937C5 /* Pod */,
+				088770940728408530E7F1F457C2A9A4 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		4F13BA693D78EBD2D64AF2719132E3C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F514830090946CAC515ABDE9E9F9D282 /* HyphenateChat */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		503987077BB8D61EC5ECDD7584B71683 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				DA433ACCFBE944EBD5C753772682CAFD /* ios */,
+			);
+			name = example;
+			path = example;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		587C5881859341F4F4897701B5EAC8BC /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				503987077BB8D61EC5ECDD7584B71683 /* example */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5C9E11FD97A8EB707CA3B366193DB3AA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				587C5881859341F4F4897701B5EAC8BC /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		6BDB552AE1ACA20EDCBBF6351746C742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63ABAD1543A3CD6DD69DCC9EC379850 /* agora_chat_sdk */,
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A53353E9E8D9CAC5E9A54E69C630DAF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9926EE241C417DBDFCEFA077FFB0E40 /* agora_chat_sdk */,
+				4DCBC7414202098F8C5A262439898019 /* Flutter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */,
+				C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */,
+				D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */,
+				7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */,
+				317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */,
+				51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */,
+				96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */,
+				CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */,
+				9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */,
+				D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		820DFF51AB8FB470637543336758E92B /* agora_chat_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB1005DD34C9113D8F8C14E5C7F4E1 /* ios */,
+			);
+			name = agora_chat_sdk;
+			path = agora_chat_sdk;
+			sourceTree = "<group>";
+		};
+		8D9A144DCACA96A2C3AB70A5C22937C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12E8C69C0730267D4A57683E54FEA41D /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8D9ECF086DF695A6A4569B85EBE7AC51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				759D2C6E9926FEAEDE58C78702A24E5E /* HyphenateChat-xcframeworks.sh */,
+				624E8A721791DA4D8BF5971945776B32 /* HyphenateChat.debug.xcconfig */,
+				C08DC5B6D293E27B80DC66B2D0D5C7AC /* HyphenateChat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HyphenateChat";
+			sourceTree = "<group>";
+		};
+		8DAB1005DD34C9113D8F8C14E5C7F4E1 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3AE5197FFD23C5338320D44F6B8A7EA4 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		9311FF188A9FC2D4DB4F6C0C268F5D91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D8158B7FC1FA8D9A7F970CEE3783B72 /* agora_chat_sdk.modulemap */,
+				DC07D7D8BCE1462FEDF199436CEECA71 /* agora_chat_sdk-dummy.m */,
+				AC90B8B1152E2E102ABE8360FAEE479D /* agora_chat_sdk-Info.plist */,
+				37AFBEBA452F32A1E0307F3FA4F76F2A /* agora_chat_sdk-prefix.pch */,
+				87BB57D4A4AE8B4BD9866E826FEC2758 /* agora_chat_sdk-umbrella.h */,
+				AA055714EB34C5C7D0255552AAB663CB /* agora_chat_sdk.debug.xcconfig */,
+				6F3181837464B5408F594EE3DCB281EA /* agora_chat_sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/agora_chat_sdk";
+			sourceTree = "<group>";
+		};
+		C9926EE241C417DBDFCEFA077FFB0E40 /* agora_chat_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E11FD97A8EB707CA3B366193DB3AA /* .. */,
+				36BDB3087DE11664DE371F96A37AC619 /* Pod */,
+				9311FF188A9FC2D4DB4F6C0C268F5D91 /* Support Files */,
+			);
+			name = agora_chat_sdk;
+			path = ../.symlinks/plugins/agora_chat_sdk/ios;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7A53353E9E8D9CAC5E9A54E69C630DAF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4F13BA693D78EBD2D64AF2719132E3C4 /* Pods */,
+				6BDB552AE1ACA20EDCBBF6351746C742 /* Products */,
+				791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70B07173FFBA42E7DEC3C48D49BA387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D6387F6729885F0B621CAD270B3FF6 /* HyphenateChat.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA433ACCFBE944EBD5C753772682CAFD /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3046DE20A7994F8C9CF259DB525E4150 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		F514830090946CAC515ABDE9E9F9D282 /* HyphenateChat */ = {
+			isa = PBXGroup;
+			children = (
+				D70B07173FFBA42E7DEC3C48D49BA387 /* Frameworks */,
+				8D9ECF086DF695A6A4569B85EBE7AC51 /* Support Files */,
+			);
+			name = HyphenateChat;
+			path = HyphenateChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DE557729A6360E1AD25A873CB00875E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F515AA50D4ACCED838E09D0496899C /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17044D87F95B6421558AA2D306AA36F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79563155611498E896846F8588456B74 /* agora_chat_sdk-umbrella.h in Headers */,
+				C5D5CDB8AB185DF03E3422D4A39FB9FC /* EaseModeToJson.h in Headers */,
+				B97506DE6AE4E0A5203B9D1C892E08EF /* EMChatManagerWrapper.h in Headers */,
+				C842554556D7C32F5D87616D67840581 /* EMChatMessage+Helper.h in Headers */,
+				E070EF5DD5FD9D9AF08DB53BE2F18B86 /* EMChatMessageWrapper.h in Headers */,
+				673F1AC2E8663BC6CE7D86CA0B1E4EAE /* EMChatroom+Helper.h in Headers */,
+				225378FAFF82BE60E21102D5F67BAC49 /* EMChatroomManagerWrapper.h in Headers */,
+				2BCB49275D2E32B29901AF20E458F7A3 /* EMChatThread+Helper.h in Headers */,
+				1E2212A9FBC6A687BCE5497813B4CCDC /* EMChatThreadEvent+Helper.h in Headers */,
+				A28E95AC7E32C1946D672FFFD2287ACF /* EMChatThreadManagerWrapper.h in Headers */,
+				714826F8442D047EA82AC40076D3FFA5 /* EMClientWrapper.h in Headers */,
+				8F269C5C33B71ED8065BBAD54654CABF /* EMContactManagerWrapper.h in Headers */,
+				C9D620BC347F682DB38AB4BE7AEC26C0 /* EMConversation+Helper.h in Headers */,
+				916C971466C048EACE65BF48C3CEC5EE /* EMConversationWrapper.h in Headers */,
+				BD044A606E3EEA8AAD9B504A4152437F /* EMCursorResult+Helper.h in Headers */,
+				C784FED5E5336F564F2B9C4534CD3B28 /* EMDeviceConfig+Helper.h in Headers */,
+				88CB40298543B2CF45D796A446432871 /* EMError+Helper.h in Headers */,
+				7ADD5EE246F756FE6D30F2911423B9ED /* EMFetchServerMessagesOption+Helper.h in Headers */,
+				CBF68DDF2394FAEAA7193A9135632E80 /* EMGroup+Helper.h in Headers */,
+				11A07F851D7E0C2FE934C4E15D7379C5 /* EMGroupManagerWrapper.h in Headers */,
+				37C757D5A487B72C77338BD1FAD24E32 /* EMGroupMessageAck+Helper.h in Headers */,
+				6CFF426C53A1F7B0C69D0CE71F503D21 /* EMListenerHandle.h in Headers */,
+				2EB96279AD21402FB63045DBC2BF230A /* EMMessageReaction+Helper.h in Headers */,
+				59BB6DC9348673A91D93D73B73006E86 /* EMMessageReactionChange+Helper.h in Headers */,
+				31EF40E1607258403467343F4D308A30 /* EMMessageReactionOperation+Helper.h in Headers */,
+				3CE3A44FCC231E2ACB595088E5EA1A27 /* EMOptions+Helper.h in Headers */,
+				3E081BB0744EBC3C82D72F989B6F0C7D /* EMPageResult+Helper.h in Headers */,
+				F3CDF9238B542D0987015A0471D0121A /* EMPresence+Helper.h in Headers */,
+				318A8D7BE9BFEBF68D14CA063B338C15 /* EMPresenceManagerWrapper.h in Headers */,
+				A58621E547262FFD2C37CDBDEAFEC6B1 /* EMProgressManager.h in Headers */,
+				447D597E792F4FE9253304D9281B3694 /* EMPushManagerWrapper.h in Headers */,
+				C94A47739CEAF322B6D29DCBB50BE368 /* EMPushOptions+Helper.h in Headers */,
+				4DB03CB5AE75E8E2F17469882206C009 /* EMSDKMethod.h in Headers */,
+				7D25DAFA8E8345C906C9ADF5751C22DE /* EMSilentModeParam+Helper.h in Headers */,
+				6E1EA716F9D30A309A6C410C08AA0953 /* EMSilentModeResult+Helper.h in Headers */,
+				4CE79E8E62C32EEA5743A39C388AA530 /* EMSilentModeTime+Helper.h in Headers */,
+				FE9745D383E5D3E176849FDB1BC2D847 /* EMTranslateLanguage+Helper.h in Headers */,
+				A2A39D5CD25610E21D2E206D89E9ECDC /* EMUserInfo+Helper.h in Headers */,
+				E9C5A3A344AF2DB68837E46FAD9975E8 /* EMUserInfoManagerWrapper.h in Headers */,
+				1FD5777A38B76BB921ABC8A0A57BA960 /* EMWrapper.h in Headers */,
+				E6F05F5E0CCD693722E38D5E51F23AB4 /* ImFlutterSdkPlugin.h in Headers */,
+				942E270FDAAF15DAD34670F76D91675D /* NSArray+Helper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07C1ABFE263742A113763DD0E8F1DC9A /* agora_chat_sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43197A6F56FC314BA2DB1222E9431523 /* Build configuration list for PBXNativeTarget "agora_chat_sdk" */;
+			buildPhases = (
+				17044D87F95B6421558AA2D306AA36F3 /* Headers */,
+				B24B57EBDE1EE162F06811CECB54A794 /* Sources */,
+				4726DF90A8E08C7BB2203D182D372E4F /* Frameworks */,
+				E717CAB893672C5C85E6D4386B851895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16200091C5DB566C21774F7A0CE807A2 /* PBXTargetDependency */,
+				BF57A2EFBE6874E7D55BAC829342817C /* PBXTargetDependency */,
+			);
+			name = agora_chat_sdk;
+			productName = agora_chat_sdk;
+			productReference = C63ABAD1543A3CD6DD69DCC9EC379850 /* agora_chat_sdk */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF02801E7E547BBB14DED3B44C07160 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				0DE557729A6360E1AD25A873CB00875E /* Headers */,
+				C743BDB13C1EC89662C734CE77F1669A /* Sources */,
+				5818A30CCDAD00E6EFB29FDEA4FB25C2 /* Frameworks */,
+				D1A8306A1C5B88D598DE427F9497D595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D9756FEDA86021FD255B92E04BE36D0 /* PBXTargetDependency */,
+				FE9F6E7CAAA4E5809598A46654D899C3 /* PBXTargetDependency */,
+				A7224CCD6B62F39F2AF6CE91D7EDB1BE /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = Pods_Runner;
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6BDB552AE1ACA20EDCBBF6351746C742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C1ABFE263742A113763DD0E8F1DC9A /* agora_chat_sdk */,
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				303418B2D7938424A56D1250A07CE646 /* HyphenateChat */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A8306A1C5B88D598DE427F9497D595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E717CAB893672C5C85E6D4386B851895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64A7B18961429FA6EDE39DCD637356C9 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HyphenateChat/HyphenateChat-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HyphenateChat/HyphenateChat-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/HyphenateChat/HyphenateChat-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24B57EBDE1EE162F06811CECB54A794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C23C6C9A53C9F76F1D7CA11869093D /* agora_chat_sdk-dummy.m in Sources */,
+				55F9B33D4BE379BA372DC90BFD1E00C9 /* EMChatManagerWrapper.m in Sources */,
+				AE77FA72F89967401957F2AEB273A91E /* EMChatMessage+Helper.m in Sources */,
+				FB9248F0BE0275612D37D51124C75BAC /* EMChatMessageWrapper.m in Sources */,
+				E5A9FD3605CB7E06E526703544ACE664 /* EMChatroom+Helper.m in Sources */,
+				8B1CBC17CEDB35B9DDE5623AD269D8EA /* EMChatroomManagerWrapper.m in Sources */,
+				DFA010C504311F4B1FEF12E24658B526 /* EMChatThread+Helper.m in Sources */,
+				5F3F1040C949E49D2A4B419EEA9C4848 /* EMChatThreadEvent+Helper.m in Sources */,
+				2E1D303177FE3418BC4059317B81860F /* EMChatThreadManagerWrapper.m in Sources */,
+				551C26F592969802ABC78DC30315D83A /* EMClientWrapper.m in Sources */,
+				08D947E310FDE244A7F01FF05F95C642 /* EMContactManagerWrapper.m in Sources */,
+				B737C74D626D1EA4FB89A4F1D7BF27EF /* EMConversation+Helper.m in Sources */,
+				43F3D2C80EB7DB7F3F312C91D5FCA1AD /* EMConversationWrapper.m in Sources */,
+				4D350D1692A677E3DFF26786F66C4718 /* EMCursorResult+Helper.m in Sources */,
+				F8A1483C757455495D013E8EB99C4114 /* EMDeviceConfig+Helper.m in Sources */,
+				FCCFCC4F9FEBACB3B6032F99C7F2F44F /* EMError+Helper.m in Sources */,
+				96182617E9E214A4D8828747D57E5A1D /* EMFetchServerMessagesOption+Helper.m in Sources */,
+				D3F10ABF08260A9BC55E048296F8837E /* EMGroup+Helper.m in Sources */,
+				AF46A9379996935A8A6C74685861532F /* EMGroupManagerWrapper.m in Sources */,
+				99C0E4D3C642F5AEBEF0FCCBAC8F8321 /* EMGroupMessageAck+Helper.m in Sources */,
+				BB119C9BC013E2B66187F3171177781D /* EMListenerHandle.m in Sources */,
+				77B5124E6B791F44252FCC72376C95C7 /* EMMessageReaction+Helper.m in Sources */,
+				1B20F70D3FFF9346B5A57F614EE1F33A /* EMMessageReactionChange+Helper.m in Sources */,
+				6294981DB497573012B1C73D03ECA837 /* EMMessageReactionOperation+Helper.m in Sources */,
+				4BA909D6F635D65F742508CADCC8FC44 /* EMOptions+Helper.m in Sources */,
+				E554517162F908B5ED7DC56C9DD26F7F /* EMPageResult+Helper.m in Sources */,
+				718DA77448E27B702BA56F9A4BD11DBD /* EMPresence+Helper.m in Sources */,
+				8FC3B3EBECFA3EAF170FC1580347D215 /* EMPresenceManagerWrapper.m in Sources */,
+				734FE0F0120AFD328F02725D1134A9EB /* EMProgressManager.m in Sources */,
+				0DCE49FB40FB9DE8434890F74D49763B /* EMPushManagerWrapper.m in Sources */,
+				5DAA085A3C86C9ABBA37D6EC74F154D1 /* EMPushOptions+Helper.m in Sources */,
+				8F55BB97B8E0B07025609B36A3897021 /* EMSilentModeParam+Helper.m in Sources */,
+				DF1DB04AC38E68D1BFF903DF7807C809 /* EMSilentModeResult+Helper.m in Sources */,
+				896568D94454808DCA61CCFDD4564797 /* EMSilentModeTime+Helper.m in Sources */,
+				2E38B3B5240EC0E1AC71F4558AAC237A /* EMTranslateLanguage+Helper.m in Sources */,
+				A45859951EEAACB10564B826DEF2357C /* EMUserInfo+Helper.m in Sources */,
+				85FC81619E8F64D75CAAD3721FD34348 /* EMUserInfoManagerWrapper.m in Sources */,
+				D85D38841DAF85C5830F15A6A84A2A76 /* EMWrapper.m in Sources */,
+				9794ED3F13394137D97089B955197E9B /* ImFlutterSdkPlugin.m in Sources */,
+				81D298ACB180EE48A653F764B7776298 /* NSArray+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C743BDB13C1EC89662C734CE77F1669A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D61EFE4CB6CE6B1769FE67094321EF /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16200091C5DB566C21774F7A0CE807A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 09B613D417D738B285857C72A270DA7C /* PBXContainerItemProxy */;
+		};
+		4D9756FEDA86021FD255B92E04BE36D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 6A749722CC82B6183D69AE5312991608 /* PBXContainerItemProxy */;
+		};
+		A7224CCD6B62F39F2AF6CE91D7EDB1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = agora_chat_sdk;
+			target = 07C1ABFE263742A113763DD0E8F1DC9A /* agora_chat_sdk */;
+			targetProxy = C80690133C5CCBAF6E8211DBC13669D2 /* PBXContainerItemProxy */;
+		};
+		BF57A2EFBE6874E7D55BAC829342817C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HyphenateChat;
+			target = 303418B2D7938424A56D1250A07CE646 /* HyphenateChat */;
+			targetProxy = B2730F28CC02241DA215DECBCF14BDD0 /* PBXContainerItemProxy */;
+		};
+		FE9F6E7CAAA4E5809598A46654D899C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HyphenateChat;
+			target = 303418B2D7938424A56D1250A07CE646 /* HyphenateChat */;
+			targetProxy = 3BAE6997EA740375A77E8E3B149771F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BCEFF80A18C7818013E8449EE37DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07C0DB9A966248118F7611D3865217D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624E8A721791DA4D8BF5971945776B32 /* HyphenateChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11DC2F069501E280E7DD549F7E17D95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1819B7929BCB2F2927819074AB69357C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD142B04F06401C0B8C03F9EB3DF3B69 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C1B5201485DFB3160241FA962BE606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C830A422E16166B21DF5020AC7CB6DEA /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5150CBDDD4AF32103D4029CA53358443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3181837464B5408F594EE3DCB281EA /* agora_chat_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/agora_chat_sdk/agora_chat_sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/agora_chat_sdk/agora_chat_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/agora_chat_sdk/agora_chat_sdk.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = agora_chat_sdk;
+				PRODUCT_NAME = agora_chat_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		515BED80C11F576C6A871C46F2EAF83F /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08DC5B6D293E27B80DC66B2D0D5C7AC /* HyphenateChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		5AF1AC88E5F655C93D1E3B5012F6FDC8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88A6C9490DEDF1F14A3E414CE66D7C7F /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		A32FE593F785866FAFD095E3CB205D6A /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3181837464B5408F594EE3DCB281EA /* agora_chat_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/agora_chat_sdk/agora_chat_sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/agora_chat_sdk/agora_chat_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/agora_chat_sdk/agora_chat_sdk.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = agora_chat_sdk;
+				PRODUCT_NAME = agora_chat_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		AB497137D1E534E9B85AAB02C617B6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA055714EB34C5C7D0255552AAB663CB /* agora_chat_sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/ivancernokniznikov/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/agora_chat_sdk/agora_chat_sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/agora_chat_sdk/agora_chat_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/agora_chat_sdk/agora_chat_sdk.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = agora_chat_sdk;
+				PRODUCT_NAME = agora_chat_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDD26A92C60D0C4275E555BC7AF77C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08DC5B6D293E27B80DC66B2D0D5C7AC /* HyphenateChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E5F691B952670B5C5A703D24863EF1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD142B04F06401C0B8C03F9EB3DF3B69 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43197A6F56FC314BA2DB1222E9431523 /* Build configuration list for PBXNativeTarget "agora_chat_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB497137D1E534E9B85AAB02C617B6B5 /* Debug */,
+				A32FE593F785866FAFD095E3CB205D6A /* Profile */,
+				5150CBDDD4AF32103D4029CA53358443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				5AF1AC88E5F655C93D1E3B5012F6FDC8 /* Profile */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F66446D199B32B3F07D153E536D371C /* Build configuration list for PBXAggregateTarget "HyphenateChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0DB9A966248118F7611D3865217D8 /* Debug */,
+				515BED80C11F576C6A871C46F2EAF83F /* Profile */,
+				CDD26A92C60D0C4275E555BC7AF77C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C1B5201485DFB3160241FA962BE606 /* Debug */,
+				F7E5F691B952670B5C5A703D24863EF1 /* Profile */,
+				1819B7929BCB2F2927819074AB69357C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF02801E7E547BBB14DED3B44C07160 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BCEFF80A18C7818013E8449EE37DE5 /* Debug */,
+				88A6C9490DEDF1F14A3E414CE66D7C7F /* Profile */,
+				11DC2F069501E280E7DD549F7E17D95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
