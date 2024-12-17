@@ -2,13 +2,17 @@ group 'com.easemob.im_flutter_sdk'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    ext.kotlin_version = "1.8.22"
+
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.0'
+        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+
     }
 }
 
@@ -20,10 +24,11 @@ allprojects {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: "kotlin-android"
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion = '28.0.3'
+    namespace = "com.easemob.im_flutter_sdk"
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 21
@@ -38,6 +43,13 @@ android {
 
     lintOptions {
         disable 'InvalidPackage'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
 
 }
